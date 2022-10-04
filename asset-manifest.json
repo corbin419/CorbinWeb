@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/corbin419/practice/static/css/main.db6fdd08.css",
+    "main.js": "/corbin419/practice/static/js/main.86c56f9c.js",
+    "static/js/787.913353d4.chunk.js": "/corbin419/practice/static/js/787.913353d4.chunk.js",
+    "static/media/HDme.JPG": "/corbin419/practice/static/media/HDme.73a21f13e44135514bfc.JPG",
+    "static/media/1110353.jpg": "/corbin419/practice/static/media/1110353.b2ca9224b78ffa1ab08e.jpg",
+    "static/media/Self.png": "/corbin419/practice/static/media/Self.55bdad3f2c2cf82d806b.png",
+    "static/media/Luck.png": "/corbin419/practice/static/media/Luck.88f622527ec8382ae29e.png",
+    "static/media/Label.jpg": "/corbin419/practice/static/media/Label.477917544bf00d36a767.jpg",
+    "index.html": "/corbin419/practice/index.html",
+    "main.db6fdd08.css.map": "/corbin419/practice/static/css/main.db6fdd08.css.map",
+    "main.86c56f9c.js.map": "/corbin419/practice/static/js/main.86c56f9c.js.map",
+    "787.913353d4.chunk.js.map": "/corbin419/practice/static/js/787.913353d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db6fdd08.css",
+    "static/js/main.86c56f9c.js"
+  ]
+}
