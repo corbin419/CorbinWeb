@@ -29,7 +29,7 @@ const Home = () => {
               </button>
             </a>
             <div className="Buttons">
-              <a href="/#" id="Home-btn">
+              <a href="/#Contact" id="Home-btn">
                 Contact Me
               </a>
               <a href="/#" id="Home-btn">

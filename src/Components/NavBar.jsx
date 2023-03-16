@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../CSS/NavBar.css";
 // import Logo from "../Images/Logo.png";
 import { useScrollPosition } from "../Hooks/useScrollPosition";
+import { HashLink } from 'react-router-hash-link';
+
 
 const NavBar = () => {
   const [Menu, setMenu] = useState("Menu-toggler");
@@ -36,27 +38,27 @@ const NavBar = () => {
   return (
     <nav className={NavBar}>
       <div className="inner-width">
-        <a href="/" className="Logo">
+        <HashLink smooth to ="/#Home" className="Logo">
           Corbin's Web
-        </a>
+        </HashLink>
         <button className={Menu} onClick={MenuClick}>
           <span></span>
           <span></span>
           <span></span>
         </button>
         <div className={NavMenu}>
-          <a href="/#Home" id="Menu-Btn">
+          <HashLink smooth to="/#Home" id="Menu-Btn">
             Home
-          </a>
-          <a href="/#AboutMe" id="Menu-Btn">
+          </HashLink>
+          <HashLink smooth to="/#AboutMe" id="Menu-Btn">
             About Me
-          </a>
-          <a href="/#Works" id="Menu-Btn">
+          </HashLink>
+          <HashLink smooth to="/#Works" id="Menu-Btn">
             Works
-          </a>
-          <a href="/#Contact" id="Menu-Btn">
+          </HashLink>
+          <HashLink smooth to="/#Contact" id="Menu-Btn">
             Contact
-          </a>
+          </HashLink>
         </div>
       </div>
     </nav>

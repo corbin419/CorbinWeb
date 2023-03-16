@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../CSS/GotoTop.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { useScrollPosition } from "../Hooks/useScrollPosition";
+import { HashLink } from "react-router-hash-link";
 
 export default function GotoTop() {
   const [Show, setShow] = useState("GotoTop");
@@ -15,10 +16,10 @@ export default function GotoTop() {
     }
   }, [scrollPosition]);
   return (
-    <a href="/#Home">
+    <HashLink smooth to="/#Home">
       <button className={Show}>
         <AiOutlineArrowUp />
       </button>
-    </a>
+    </HashLink>
   );
 }
